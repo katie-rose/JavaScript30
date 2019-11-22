@@ -141,11 +141,12 @@
     </div>
 
     <script>
-      const panels = document.querySelectorAll(".panel");
+      const panels = document.querySelectorAll('.panel');
 
-      function toggleOpen() {
-        this.classList.toggle("open");
-      }
+    function toggleOpen() {
+      console.log('Hello');
+      this.classList.toggle('open');
+    }
 
       function toggleActive(e) {
         console.log(e.propertyName);
